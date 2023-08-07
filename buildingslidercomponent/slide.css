@@ -1,0 +1,135 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+.head{
+    transform: translate(90px,10px);
+}
+.section--head1{
+    color: #4bbb7d;
+    font-size: small;
+    font-weight: 600;
+    transform: translateY(20px);
+}
+
+.section--head2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section-testimonials{
+    position: relative;
+    height: 1000px;
+   
+}
+
+.slider{
+    height: 300px;
+  
+    position: relative;
+    width: 600px;
+    left: 95px;
+    overflow: hidden;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 600px;  
+  
+    
+}
+
+.slide{
+    font-size: small;
+    position: absolute;
+    width: 600px;
+}
+
+.testimonial__photo{
+    object-fit: contain;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+}
+
+.testimonial__author{
+    width: fit-content;
+    height: fit-content;
+    transform: translate(70px,20px);
+}
+
+.testimonial__name{
+   transform: translate(80px,-85px);
+   font-weight: 500;
+   font-size: small;
+   font-style: normal;
+}
+
+.testimonial__location{
+    font-style: normal;
+    transform: translate(78px,-110px);
+    font-weight: 300;
+    font-size: smaller;
+}
+
+.testimonial__header{
+    font-size: large;
+    transform: translate(40px,0px);
+    
+}
+
+.testimonial__text{
+    transform: translate(0px,-10px);
+    font-weight: 300;
+}
+
+.slider__btn{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+}
+
+.slider__btn--left{
+    transform: translate(20px,-180px);
+}
+
+.slider__btn--right{
+    transform: translate(690px,-180px);
+}
+
+.dot{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(95, 91, 91);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.dot--0{
+    transform: translate(370px,30px);
+}
+
+.dot--1{
+    transform: translate(390px,23px);
+}
+
+.dot--2{
+    transform: translate(410px,16px);
+}
+
+.active{
+    background-color: rgb(183, 177, 177);
+}
